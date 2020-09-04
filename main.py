@@ -30,7 +30,7 @@ elif grade1 == "F" or grade1 == "f":
   print(f"Grade point for course 1 is: {gradepoint1}")
 
 else:  
-  print(f"Invalid unit({grade1})")
+  print(f"Grade point for course 1 is: {0.0}")
 
 grade2 = input("Enter your course 2 letter grade: ")
 course2 = input("Enter your course 2 credit: ")
@@ -63,7 +63,7 @@ elif grade2 == "F" or grade2 == "f":
   print(f"Grade point for course 2 is: {gradepoint2}")
 
 else:  
-  print(f"Invalid unit({grade2})")
+  print(f"Grade point for course 2 is: {0.0}")
 
 grade3 = input("Enter your course 3 letter grade: ")
 course3 = input("Enter your course 3 credit: ")
@@ -96,7 +96,7 @@ elif grade3 == "F" or grade3 == "f":
   print(f"Grade point for course 3 is: {gradepoint3}")
 
 else:  
-  print(f"Invalid unit({grade3})")
+  print(f"Grade point for course 3 is: {0.0}")
 
 GPA = ((gradepoint1 * course1 + gradepoint2 * course2 + gradepoint3 * course3) / (course1 + course2 + course3))
 print(f"Your GPA is: ({GPA})")
