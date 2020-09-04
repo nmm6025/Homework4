@@ -26,7 +26,7 @@ elif grade1 == "D" or grade1 == "d":
   gradepoint1 = 1.0
   print(f"Grade point for course 1 is: {gradepoint1}")
 elif grade1 == "F" or grade1 == "f":
-  gradepoint1 = 1.0
+  gradepoint1 = 0.0
   print(f"Grade point for course 1 is: {gradepoint1}")
 
 else:  
@@ -59,7 +59,7 @@ elif grade2 == "D" or grade2 == "d":
   gradepoint2 = 1.0
   print(f"Grade point for course 2 is: {gradepoint2}")
 elif grade2 == "F" or grade2 == "f":
-  gradepoint2 = 1.0
+  gradepoint2 = 0.0
   print(f"Grade point for course 2 is: {gradepoint2}")
 
 else:  
@@ -92,7 +92,7 @@ elif grade3 == "D" or grade3 == "d":
   gradepoint3 = 1.0
   print(f"Grade point for course 3 is: {gradepoint3}")
 elif grade3 == "F" or grade3 == "f":
-  gradepoint3 = 1.0
+  gradepoint3 = 0.0
   print(f"Grade point for course 3 is: {gradepoint3}")
 
 else:  
