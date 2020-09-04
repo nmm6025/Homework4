@@ -99,4 +99,4 @@ else:
   print(f"Invalid unit({grade3})")
 
   GPA = ((gradepoint1 * credit1 + gradepoint2 * credit2 + gradepoint3 * credit3) / (credit1 + credit2 + credit3)
-  print(f"Your GPA is: ({GPA})")
+  print(f"Your GPA is: {GPA}")
