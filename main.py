@@ -98,5 +98,5 @@ elif grade3 == "F" or grade3 == "f":
 else:  
   print(f"Grade point for course 3 is: {float(0.0)}")
 
-GPA = float((gradepoint1 * course1) + (gradepoint2 * course2) + (gradepoint3 * course3) / (course1 + course2 + course3))
+GPA = ((float(gradepoint1) * float(course1) + float(gradepoint2) * float(course2) + (float(gradepoint3) * float(course3) / (float(course1) + float(course2) + float(course3)))))
 print(f"Your GPA is: {GPA}") 
